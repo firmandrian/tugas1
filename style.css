@@ -1,0 +1,106 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: myriad pro;
+	background-color: #e9eef5;
+}
+.container {
+	width: 450px;
+	height: 600px;
+	background-color: #ffffff;
+	border-radius: 18px;
+	position: absolute;
+	top: 13%;
+	left: 33%;
+	box-shadow: 5px 40px 30px rgba(19, 56, 106, 0.4);
+}
+.admin {
+	float: left;
+	color: #58a2ed;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: arial;
+}
+.continue {
+	float: right;
+	color: rgba(221, 219, 219, 1);
+	font-size: 25px;
+}
+.admin,
+.continue {
+	margin: 20px 40px;
+}
+form {
+	text-align: center;
+	margin-top: 40px;
+}
+.fix {
+	clear: both;
+}
+.inputbox input {
+	height: 45px;
+	width: 200px;
+	border: 1px solid #eaedf4;
+	border-radius: 18px;
+	font-size: 11px;
+	background-color: #f5f6fa;
+	color: #505666;
+	padding: 0px 15px;
+	outline: none;
+}
+.inputbox input[type="button"] {
+	margin: 35px 0px 0px 0px;
+	width: 20%;
+	height: 38px;
+	color: #ffffff;
+	background-color: #2091eb;
+	border: none;
+}
+.inputbox input[type="button"]:hover {
+	background-color: rgba(219, 33, 103, 1);
+	transition: all ease 0.5s;
+}
+.inputbox p {
+	margin: 30px 0px 6px -100px;
+	font-size: 14px;
+	color: #505666;
+}
+.inputbox input[type="email"]:focus,
+.inputbox input[type="password"]:focus {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #58a2ed;
+	border-radius: 0px;
+	transition: all ease 0.5s;
+}
+.social {
+	display: flex;
+	font-size: 12px;
+	margin: 40px 20px;
+	line-height: 20px;
+}
+.social a {
+	margin: 7%;
+	text-decoration: none;
+	color: #505666;
+	text-align: center;
+}
+.lower {
+	margin: 30px;
+}
+.lower .forget {
+	float: left;
+	text-decoration: none;
+	color: rgba(77, 77, 77, 1);
+	font-size: 13px;
+}
+.lower .sign-up {
+	float: right;
+	text-decoration: none;
+	font-size: 13px;
+	color: rgba(77, 77, 77, 1);
+}
+.container i {
+	font-size: 20px;
+	margin-right: 10px;
+}
